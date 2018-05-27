@@ -1,0 +1,53 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5cda3fb2-febd-4419-9983-ed967c50f2c7" name="CruiseFactory-AUS" url="http://54.66.201.66">
+        <fileTransfer host="54.66.201.66" port="22" rootFolder="/home" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="0bf4c5ca-c2c0-4ac9-a340-ffbfd250d8d5" name="CruiseFactory-XML" url="http://54.66.192.104">
+        <fileTransfer host="54.66.192.104" port="22" rootFolder="/home" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d0fe2417-9aa5-4942-a21e-58254358bea7" name="Reactjs-Symfony" url="http://reactjs-symfony.app">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="d6623264-4c0c-472f-8407-27d785bde1b2" name="brd" url="http://brd.intsrv.net">
+        <fileTransfer host="brd.intsrv.net" port="22" rootFolder="/home/ecom/var/contentshare" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6f39a5b8-15db-45f9-ab25-e48d360d7cda" name="aothotels-vagrant" url="http://127.0.0.1:8080">
+        <fileTransfer host="127.0.0.1" port="2222" privateKey="E:\dev\AOT\aothotels-sf\.vagrant\machines\default\virtualbox\private_key" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d93a52b7-2a63-466d-9f1c-fecbe9f36b3a" name="iresdev1" url="http://iresdev1.intsrv.net/~meratc">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="59820bbf-421c-476e-9873-7ee1a0408d16" name="vagrant" url="http://ires.api:8080">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="73c33d86-3bd1-4d11-838f-3fed600a6d6b" name="vagrant (1)" url="http://127.0.0.1:8080">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="e430b86f-5323-4f39-a286-262c3122d0e9" name="vagrant (2)" url="http://hloauth.localhost:8080">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>

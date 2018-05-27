@@ -1,0 +1,19 @@
+<application>
+  <component name="LogHighlightingSettings">
+    <Patterns>
+      <list>
+        <LogHighlightingPattern pattern="^\s*e(rror)?\s*$" action="HIGHLIGHT_LINE" fg="-65536" bold="true" stripe="true" />
+        <LogHighlightingPattern pattern="^\s*w(arning)?\s*$" action="HIGHLIGHT_LINE" fg="-22016" bold="true" />
+        <LogHighlightingPattern pattern="^\s*i(nfo)?\s*$" action="HIGHLIGHT_LINE" fg="-12599489" />
+        <LogHighlightingPattern pattern="^\s*c(ritical)?\s*$" action="HIGHLIGHT_LINE" fg="-65536" bold="true" stripe="true" />
+      </list>
+    </Patterns>
+    <parsing>
+      <list>
+        <LogParsingPattern name="AOT-Symfony" pattern="^\[(\d{4}\-\d{2}\-\d{2}\s\d{2}:\d{2}:\d{2})\]\s\w+\.(\w+):\s.*$" timePattern="yyyy-MM-dd HH:mm:ss" linePattern="^\[" timeId="0" severityId="1" />
+      </list>
+    </parsing>
+    <settingsVersion>3</settingsVersion>
+    <lastAddedDefaultFormat>3</lastAddedDefaultFormat>
+  </component>
+</application>
