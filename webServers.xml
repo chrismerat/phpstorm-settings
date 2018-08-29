@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="5cda3fb2-febd-4419-9983-ed967c50f2c7" name="CruiseFactory-AUS" url="http://54.66.201.66">
-        <fileTransfer host="54.66.201.66" port="22" rootFolder="/home" accessType="SFTP">
+        <fileTransfer host="54.66.201.66" port="22" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
