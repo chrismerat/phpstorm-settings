@@ -366,7 +366,7 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP 7.2">
-        <phpinfo binary_type="PHP" php_cli="/opt/local/bin/php72" path_separator=":" version="7.2.9">
+        <phpinfo binary_type="PHP" php_cli="/opt/local/bin/php72" path_separator=":" version="7.2.10">
           <additional_php_ini>/opt/local/var/db/php72/mbstring.ini, /opt/local/var/db/php72/mysql.ini, /opt/local/var/db/php72/openssl.ini, /opt/local/var/db/php72/xdebug.ini</additional_php_ini>
           <configuration_file>/opt/local/etc/php72/php.ini</configuration_file>
           <configuration_options>
