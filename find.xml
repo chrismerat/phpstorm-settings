@@ -3,7 +3,7 @@
     <option name="customScope" value="Cruise Traveller Theme" />
     <option name="defaultScopeName" value="Cruise Traveller Theme" />
     <option name="SEARCH_SCOPE" value="Cruise Traveller Theme" />
-    <option name="FILE_MASK" value="*.php" />
+    <option name="FILE_MASK" value="*.scss" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -14,7 +14,8 @@
     <mask>*.mxml</mask>
     <mask>*.jsx</mask>
     <mask>*.twig</mask>
-    <mask>*.css</mask>
     <mask>*.php</mask>
+    <mask>*.css</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
