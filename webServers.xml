@@ -25,6 +25,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="cde58fa9-852c-4a72-b329-6dc32f424094" name="digitalocean-droplet01" url="http://ct.merat.com.au">
+        <fileTransfer host="128.199.127.235" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
