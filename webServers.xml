@@ -33,6 +33,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="d5231359-4418-42f9-946d-e40982ed7f8c" name="arrowtech-ctv-dev" url="http://dev.cruisetraveller.com.au">
+        <fileTransfer host="vps6.arrowtechnology.com" port="21" rootFolder="/httpdocs">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
