@@ -44,7 +44,7 @@
       <webServer id="2831b0c7-d29a-4a28-802b-77c6af10b7c4" name="arrowtech-ctv-live" url="https://www.cruisetraveller.com.au">
         <fileTransfer host="vps6.arrowtechnology.com" port="21" rootFolder="/httpdocs">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="30000" maxConnections="1" shareSSLContext="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
