@@ -8,6 +8,7 @@
       <mapping pattern="SerkoCronjob" type="PHP" />
       <mapping pattern="services" type="PHP" />
       <mapping pattern="increment" type="PHP" />
+      <mapping pattern="clearcache" type="PHP" />
       <mapping ext="html" type="PHP" />
       <mapping pattern="sess_mk5enmjg0cs805mnh2flu77pu5" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
